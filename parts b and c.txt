@@ -1,0 +1,4 @@
+part 2 b) The binary algorithm is of time complexity O(2^n) as for every recursive call it initiates 3 recursive calls if it is not a base case therfore giving it an actual complexity of 3^n. The linear complexity initiates a recursive
+for each non base case giving it a time complexity of O(n). The linear algorithm is much qiucker and would not cause stack overflow unlike the binary one.
+
+c)The binary algorithm can never have a tail recursive version since tail recursive methods must be binary. As for the linear algorithm it can implement tail recursion and I have included an implementation in my java source file.

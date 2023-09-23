@@ -1,0 +1,8 @@
+For the linear version the time elasped is so short that its negligible and the computer records it as 0 time elapsed which is of course not precise but the computer will 
+have to measure it nanoseconds or maybe even a smaller fraction to be able to compute the actual time elapsed. 
+
+For the binary version the time elapsed I have used is up to the 40th term in the sequence as I tried to go for higher than that but the program took so long to execute
+that I thought it might crash my pc or even worse.
+
+In general, for both algorithms if we calculate up to the big terms like the 90th term using a long will not suffice so it is evident that when we get to the big terms the size
+of the long type is not big enough so there are overflow errors which result in negative numbers in the last iterations of the algorithms.
